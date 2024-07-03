@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookingSucess"
+    android:gravity="center"
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_height="200sp"
+        android:layout_width="wrap_content"
+        android:src="@drawable/giphy_tick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank your for Booking
+\nyour ticket"
+        android:textSize="25dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/transactionIDTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Id:"
+        android:textSize="12dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/DateTimeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booked Date:"
+        android:textSize="12dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageQrBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/buttondone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Done" />
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577228615966",
+    "project_id": "qb-app-test",
+    "storage_bucket": "qb-app-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577228615966:android:673cfeed76d65f1523990f",
+        "android_client_info": {
+          "package_name": "com.example.eventmanagementapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeeywTRBSas5eN26_8Q5jjP2_wkUoF61U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
